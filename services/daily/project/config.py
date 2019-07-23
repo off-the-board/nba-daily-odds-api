@@ -14,6 +14,8 @@ class BaseConfig:
     CACHE_REDIS_HOST = "redis"
     CACHE_REDIS_PORT = 6379
     CACHE_REDIS_PASSWORD = "p@ssw0rd!"
+    # Sports Data IO API
+    SPORTS_DATA_IO_API_KEY = os.getenv("SPORTS_DATA_IO_API_KEY")
 
 
 class DevelopmentConfig(BaseConfig):

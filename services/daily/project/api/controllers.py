@@ -8,6 +8,5 @@ def daily_live_odds_payload(date):
 
 
 def daily_pregame_odds_payload(date):
-    print('req')
     return client.pregame_odds_by_date(date).json()
 

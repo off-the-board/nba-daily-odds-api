@@ -16,6 +16,7 @@ services:
       - APP_SETTINGS=project.config.DevelopmentConfig
       - SECRET_KEY=my_precious
       - DATABASE_URL=postgres://postgres:postgres@db:5432/nba_boxscore_overview_dev
+      - SPORTS_DATA_IO_API_KEY=0fd49556efcb4f069b09430a59ecb5a9
 
   redis:
     image: 'redis:3.0-alpine'

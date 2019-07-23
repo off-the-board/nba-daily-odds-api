@@ -4,3 +4,5 @@ Flask-RESTful==0.3.7
 Flask-SQLAlchemy==2.4.0
 psycopg2-binary==2.8.3
 redis==3.2.1
+sports-data-io-sdk==0.1.0
+
